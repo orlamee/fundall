@@ -32,7 +32,7 @@ export default function MainContentLogin() {
                     <input type="password" className="form-control" id="inputPassword" placeholder="Enter password" required/>
                   </div>
                   <div className="col-12">
-                    <button type="submit" className="btn btn-primary btn-block sign-btn text-dark fw-bold">LOGIN</button>
+                    <button type="submit" className="btn btn-primary btn-block sign-btn text-dark fw-bold"><Link to="/dashboard">LOGIN</Link></button>
                   </div>
                 </form>
                 <div className="text-center mt-4">

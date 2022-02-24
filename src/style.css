@@ -26,8 +26,11 @@ a.login {
 }
 
 .sign-btn {
-  background-color: #4CE895;
-  border: 1px solid #4CE895;
+  background-color: #4DE897;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  line-height: 32px;
+  padding: 10px 20px;
 }
 
 .btn-block {
@@ -57,7 +60,7 @@ a.login {
     border: 10px solid #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082937);
     border-radius: 40px;
-    margin: 70px 0px;
+    margin: 71px 0px;
   }
 }
 
@@ -67,3 +70,98 @@ a.login {
   }
 }
 
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 10px;
+  /* padding: 20px; */
+}
+
+.user-bg {
+  background-color: #C4C4C4;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.icon-user {
+  font-size: 25px;
+}
+
+.progress-bar.bg-success {
+  width: 50%;
+}
+
+.progress {
+  display: flex;
+  height: 14px;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 36px;
+}
+
+.expenses-bg {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 6px rgb(77 232 151 / 19%);
+    border-radius: 10px;
+}
+
+div#tableexpenses_length {
+  display: none;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: rgb(255 255 255);
+  color: #4DE897;
+  font-weight: 600;
+}
+
+table.table-bordered.dataTable tbody td {
+  padding: 23px;
+  color: #4DE897;
+  font-weight: 600;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #4DE897;
+  border-color: #4DE897;
+}
+
+table.table-bordered.dataTable tbody td {
+  padding: 23px;
+}
+
+.bg-dash {
+  background-color: #F2F3F7;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 8%);
+  border-radius: 6px;
+  padding: 50px 0px;
+}
+
+.header {
+  background-color: #fff;
+  padding: 30px;
+  margin: 40px;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 8%);
+  border-radius: 6px;
+}
+
+.dashform {
+  padding: 10px 40px;
+}
+
+.expenses {
+  width: 40%;
+}
+
+@media only screen and (min-width: 768px){
+  .left {
+    margin-left: 179px;
+  }
+}
