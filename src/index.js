@@ -20,6 +20,5 @@ ReactDOM.render(
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Auth0Provider>
-    
   </BrowserRouter>, document.getElementById("root")
 )

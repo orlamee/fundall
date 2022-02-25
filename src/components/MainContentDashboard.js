@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import Avatar from "../images/avatar.png";
+import DashboardImg from "../images/dashboard-img.png"
 import reactLogo from "../images/logo.png";
 import DataTable from "./DataTable";
 import DashboardForm from "./DashboardForm";
@@ -14,7 +15,7 @@ export default function MainContentDashboard() {
         </Link>
         <div className="container mt-5">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-5">
               <div className="flex-container">
                 <div className="user-bg">
                   <i class="bi bi-person-fill icon-user"></i>
@@ -36,11 +37,12 @@ export default function MainContentDashboard() {
                 <DataTable/>
               </div>
             </div>
-            <div className="col-md-6 mt-2">
+            <div className="col-md-7 mt-2">
               <div className="bg-dash">
                 <div className="header">
                   <h2><span className="color-text">Welcome back,</span> Babatunde</h2>
                   <h6>Now, let’s get your expenses for this month</h6>
+                  <img src={DashboardImg} alt="" className="img-dash" />
                 </div>
                 <div>
                   <DashboardForm/>

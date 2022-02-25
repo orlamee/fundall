@@ -146,7 +146,7 @@ table.table-bordered.dataTable tbody td {
 
 .header {
   background-color: #fff;
-  padding: 30px;
+  padding: 16px 30px;
   margin: 40px;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 8%);
   border-radius: 6px;
@@ -164,4 +164,9 @@ table.table-bordered.dataTable tbody td {
   .left {
     margin-left: 179px;
   }
+}
+
+.img-dash {
+  margin-left: 375px;
+  margin-top: -155px;
 }
